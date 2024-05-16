@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Quicksand&display=swap');
+
+html, body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1F4068;
+    color: white;
+}
+
+.ff-jose {
+    font-family: 'Jost', sans-serif ;
+}
+
+.font-big {
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.bg-dark {
+    background-color: #162447 !important;
+}
+
+.bg-blue {
+    background-color: #1B1B2F;
+}
+
+.text-red {
+    color: #E43F5A;
+}
+
+.text-black {
+    color: #162447;
+}
+
+.dropdown-item:active {
+    background-color: #1B1B2F !important;
+}
+
+.active {
+    color: #E43F5A !important;
+    background-color: #162447 !important;
+    font-weight: 600;
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes slideInTop {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+.slide-in-left {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+}
+
+.slide-in-top {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInTop;
+}
+
+.slide-in-bottom {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInBottom;
+}
+
+/* ===================== Transition ===================== */
+
+.animate-charcter {
+    background-image: linear-gradient(-225deg,#ffffff,#E43F5A,#E43F5A,#ffffff);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* ===================== Home ===================== */
+
+.home-container {
+    background-color: #1F4068;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid #E43F5A;
+    max-width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.ls-2 {
+    letter-spacing: 2px; 
+}
+
+/* ===================== Skills ===================== */
+
+.mw-fc {
+    max-width: fit-content;
+}
+
+/* ===================== My Work ===================== */
+
+.custom-arrow {
+    background: none;
+    border: none;
+}
+
+.bold-arrow {
+    color: #E43F5A;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ===================== Resume ===================== */
+
+li::marker {
+    color: #E43F5A;
+    font-size: 2em;
+}
+
+.blue-label {
+    background-color: #1B1B2F;
+    width: max-content;
+}
+
+.zoom-on-hover:hover {
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
+/* ===================== Portfolio ===================== */
+
+.portfolio-link:hover {
+    background-color: #E43F5A;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar .d-flex a {
+    margin-left: 10px;
+}
+
+/* ===================== Resume Section ===================== */
+.resume-section {
+  padding: 2rem;
+  background-color: #162447;
+  color: white;
+}
+
+.resume .d-flex {
+  justify-content: center;
+}
+
+.resume .react-pdf__Document {
+  margin: 0 auto;
+}
+
+.resume-section .p-4 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
