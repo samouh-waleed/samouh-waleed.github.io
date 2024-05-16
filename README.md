@@ -24,4 +24,4 @@ This is a personal portfolio website built using React.js. It showcases skills, 
     npm start
     ```
 # To access the website
-[waleed](https://waleedsamouh.com/)
+[waleed samouh portfolio](https://waleedsamouh.com/)
