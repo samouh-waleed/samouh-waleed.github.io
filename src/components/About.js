@@ -11,12 +11,12 @@ function About() {
                         <div>
                             <h1 className="font-big text-red slide-in-top">About</h1>
                             <hr></hr>
-                            <p className='slide-in-bottom'>Ambitious software engineer, a self-led learner and team player with one year of experience in web development.</p>
+                            <p className='slide-in-bottom'>Ambitious software engineer, a self-led learner and team player with one year of experience in software engineer.</p>
                             <p className='slide-in-bottom'>
                                 Currently looking for new opportunities in industry and willing to work on challenging and diverse projects with the latest technologies.
                             </p>
                             <p className='slide-in-bottom'>
-                                Previously worked as Software Engineer. The technology I've worked on: <span className="text-red ls-2">JavaScript, node.js, React, Sql, Ssms, PowerBI</span>
+                                Previously worked as Software Engineer. The technology I've worked on: <span className="text-red ls-2">Java, Python, JavaScript, node.js, React, SQL, Ssms, Rest API, PowerBI</span>
                             </p>
                             <p className='slide-in-bottom'>
                                 Currently Learning ML and AI.

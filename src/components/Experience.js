@@ -24,7 +24,7 @@ function Experience() {
               <h4 className="ff-jose ls-2">Software Engineer, Riipen</h4>
               <h6 className="blue-label px-2 py-1">Sep 2022 - Apr 2023</h6>
               <ul>
-                <li>Crafted Figma wireframes for the Global Islamic Society's app, benefiting 500+ mosque visitors and seamlessly transitioned these into a functional app using JavaScript, React Native, and Expo.</li>
+                <li>Crafted Figma wireframes for a mosque app, benefiting 500+ mosque visitors and seamlessly transitioned these into a functional app using JavaScript, React Native, and Expo.</li>
                 <li>Efficiently collaborated with a diverse team of 8, harnessing tools like GitHub and Trello for streamlined development and testing.</li>
               </ul>
             </div>
