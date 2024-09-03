@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { SiJavascript, SiMicrosoftsqlserver, SiNodedotjs, SiReact, SiHtml5, SiCss3, SiExpress, SiPython, SiAmazonaws, SiPowerbi } from 'react-icons/si';
+import { SiJavascript, SiMicrosoftsqlserver, SiNodedotjs, SiReact, SiHtml5, SiCss3, SiExpress, SiPython, SiAmazonaws, SiPowerbi, SiJava } from 'react-icons/si';
 import { MdOutlineApi } from 'react-icons/md';
 
 function Skills() {
@@ -14,10 +14,10 @@ function Skills() {
                 <hr></hr>
                 <div className="row my-2">
                   <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
-                    <span><SiJavascript className='fs-4'/> JavaScript</span>
+                    <span><SiJava className='fs-4'/> Java</span>
                   </div>
                   <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
-                    <span><SiMicrosoftsqlserver className='fs-4'/> Microsoft SQL Server</span>
+                    <span><SiJavascript className='fs-4'/> JavaScript</span>
                   </div>
                   <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                     <span><SiNodedotjs className='fs-4'/> Node.js</span>
@@ -36,6 +36,9 @@ function Skills() {
                   </div>
                   <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                     <span><SiPython className='fs-4'/> Python</span>
+                  </div>
+                  <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
+                    <span><SiMicrosoftsqlserver className='fs-4'/> Microsoft SQL Server</span>
                   </div>
                   <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                     <span><SiAmazonaws className='fs-4'/> AWS</span>

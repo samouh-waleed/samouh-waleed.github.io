@@ -7,6 +7,7 @@ import Resume from './components/Resume';
 import Experience from './components/Experience';
 import MyWork from './components/MyWork';
 import { Element } from 'react-scroll';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Element>
           <Element name="resume">
             <Resume />
+          </Element>
+          <Element name="contact">
+            <ContactMe />
           </Element>
         </div>
       </div>
