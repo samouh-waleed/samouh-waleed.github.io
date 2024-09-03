@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.15fa35fd.css",
-    "main.js": "/static/js/main.78519d30.js",
+    "main.js": "/static/js/main.5260e506.js",
     "static/media/Waleed-Samouh-Resume.pdf": "/static/media/Waleed-Samouh-Resume.7a86624aec9f2d275329.pdf",
     "index.html": "/index.html",
     "main.15fa35fd.css.map": "/static/css/main.15fa35fd.css.map",
-    "main.78519d30.js.map": "/static/js/main.78519d30.js.map"
+    "main.5260e506.js.map": "/static/js/main.5260e506.js.map"
   },
   "entrypoints": [
     "static/css/main.15fa35fd.css",
-    "static/js/main.78519d30.js"
+    "static/js/main.5260e506.js"
   ]
 }
