@@ -33,7 +33,7 @@ function App() {
           <Element name="resume">
             <Resume />
           </Element>
-          <Element name="contact">
+          <Element name="contactme">
             <ContactMe />
           </Element>
         </div>

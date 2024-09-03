@@ -1,4 +1,4 @@
-import  { Fragment } from 'react';
+import { Fragment } from 'react';
 import { VscHome } from 'react-icons/vsc';
 import { FiUser } from 'react-icons/fi';
 import { BsCode } from 'react-icons/bs';
@@ -35,11 +35,13 @@ function Topbar() {
               <li className="nav-item">
                 <Link to="resume" className="nav-link" smooth={true} duration={300}><AiOutlineUnorderedList className='fs-5' /> Resume</Link>
               </li>
+              <li className="nav-item">
+                <Link to="contactme" className="nav-link" smooth={true} duration={300}><MdEmail className='fs-5' /> Contact Me</Link>
+              </li>
             </ul>
             <div className="d-flex">
-              <a href="mailto:waleed.samouh02@gmail.com" target="_blank" className="nav-link text-white"><MdEmail className='fs-5' /> Email</a>
-              <a href="https://www.linkedin.com/in/waleed-samouh/" target="_blank" className="nav-link text-white"><AiFillLinkedin className='fs-5' /> LinkedIn</a>
-              <a href="https://github.com/samouh-waleed" target="_blank" className="nav-link text-white"><AiFillGithub className='fs-5' /> Github</a>
+              <a href="https://www.linkedin.com/in/waleed-samouh/" target="_blank" rel="noopener noreferrer" className="nav-link text-white"><AiFillLinkedin className='fs-5' /> LinkedIn</a>
+              <a href="https://github.com/samouh-waleed" target="_blank" rel="noopener noreferrer" className="nav-link text-white"><AiFillGithub className='fs-5' /> Github</a>
             </div>
           </div>
         </div>
